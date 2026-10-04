@@ -11,8 +11,6 @@
   <a href="https://linktr.ee/ParthChaitnya"><img src="https://img.shields.io/badge/Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white"/></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=parthchaitanya&label=Profile%20views&color=7c3aed&style=flat" alt="profile views"/>
-
 </div>
 
 ---
