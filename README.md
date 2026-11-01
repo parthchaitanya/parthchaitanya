@@ -142,6 +142,34 @@ class ParthChaitanya:
 <tr>
 <td width="50%" valign="top">
 
+### 🛡️ [SOC Copilot v0.1](https://github.com/parthchaitanya/SOC-COPILOT)
+**Multi-agent SIEM log triage (Proof-of-Concept)**
+
+- Simulates the end-to-end **log retrieval → threat assessment → incident report** pipeline
+- Rule mappings flag user behaviours with **threat severity + MITRE ATT&CK codes**
+- Templated **Markdown triage reports**; runs locally on mock Exabeam logs, no API keys or cloud bills
+- Production roadmap: **LangGraph** orchestration, **ChromaDB** semantic search, **Groq/Llama-3** reasoning
+
+`Python` `SIEM` `MITRE ATT&CK` `Exabeam`
+
+</td>
+<td width="50%" valign="top">
+
+### 🛰️ [SAT-SA](https://github.com/parthchaitanya/SAT-SA)
+**Air-gapped supervisory analytics for SOC assessment**
+
+- Audits **human analyst behaviour** in SOC case records across Critical Sector Entities (NCIIPC)
+- Detects visible errors (unescalated alerts, boilerplate notes, impossibly fast closures) and **blindspots** (missing alert categories, telemetry blackouts, Z-score/IQR outliers)
+- **0–100 composite risk score** ranks analysts & entities for intervention
+- Plain-language briefings via local **Ollama (Llama 3.2)** with deterministic fallback, **zero network calls**
+
+`Python` `Streamlit` `Pydantic` `Ollama`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🔥 [Forest Fire Index Predictor](https://github.com/parthchaitanya/FFI-Predictor)
 **Fire risk estimation model**
 
@@ -161,26 +189,6 @@ class ParthChaitanya:
 - Streamlit app for live predictions from customer details
 
 `TensorFlow` `Keras` `Streamlit`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📰 [AI Company Brochure Generator](https://github.com/parthchaitanya/AI-Company-Brochure-Generator)
-
-- Scrapes a company site, lets an **LLM pick relevant pages**, streams a Markdown brochure
-
-`LLM` `Web Scraping` `Streamlit`
-
-</td>
-<td width="50%" valign="top">
-
-### 💬 [Conversational AI Assistant](https://github.com/parthchaitanya/Conversational_AI_Assistant)
-
-- Retail chatbot with **real-time streaming** via the Groq API and dynamic system prompts
-
-`Groq` `Gradio` `Prompt Engineering`
 
 </td>
 </tr>
