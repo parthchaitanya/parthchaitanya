@@ -168,29 +168,7 @@ class ParthChaitanya:
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
 
-### 🔥 [Forest Fire Index Predictor](https://github.com/parthchaitanya/FFI-Predictor)
-**Fire risk estimation model**
-
-- Benchmarked **4+ regression algorithms** on 5,000+ weather records
-- **R² > 0.98**, ~22% lower RMSE
-- Streamlit dashboard with **<1s** prediction latency
-
-`Scikit-learn` `Pandas` `Streamlit`
-
-</td>
-<td width="50%" valign="top">
-
-### 🏦 [Customer Churn Prediction](https://github.com/parthchaitanya/Customer-Churn-Prediction)
-**Neural network for bank churn**
-
-- ANN built with **TensorFlow/Keras** on the Churn Modelling dataset
-- Streamlit app for live predictions from customer details
-
-`TensorFlow` `Keras` `Streamlit`
-
-</td>
 </tr>
 </table>
 
